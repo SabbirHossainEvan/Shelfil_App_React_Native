@@ -5,6 +5,7 @@ import Spacer from '../../components/Spacer'
 import ThemedText from '../../components/ThemedText'
 import { Link } from 'expo-router'
 import { Colors } from '../../constants/Colors'
+import ThemedButton from '../../components/ThemedButton'
 
 const Login = () => {
 
@@ -21,11 +22,7 @@ const Login = () => {
         </ThemedText>
 
 
-    <Pressable 
-    onPress={handleSubmit}
-    style={({ pressed }) => [styles.btn, pressed && styles.pressed]}>
-        <Text style={{ color: '#f2f2f2'}} >Login</Text>
-    </Pressable>
+        <ThemedButton onPress={handleSubmit} style={styles.btn}></ThemedButton>
 
 
         <Spacer height={100} />
@@ -42,6 +39,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
+        alignItems: 'center',
     },
     title: {
         fontSize: 18,
