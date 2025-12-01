@@ -102,6 +102,11 @@ const Home = () => {
             <Link href={"/register"} style={{ marginTop: 20, borderBottomWidth: 1, marginVertical: 10 }}>
                 <ThemedText>Register page</ThemedText>
             </Link>
+
+
+            <Link href={"/profile"} style={{ marginTop: 20, borderBottomWidth: 1, marginVertical: 10 }}>
+                <ThemedText>Profile page</ThemedText>
+            </Link>
         </ThemedView>
     )
 }
