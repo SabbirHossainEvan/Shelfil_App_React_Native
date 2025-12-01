@@ -75,7 +75,7 @@ const DashboardLayout = () => {
                     tabBarIcon: ({ color }) => (
                         <Ionicons 
                             size={24} 
-                            name='add-circle-outline' // নতুন কিছু তৈরি করার আইকন
+                            name='add-circle-outline' 
                             color={color} 
                         />
                     ) 
