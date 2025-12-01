@@ -96,12 +96,12 @@ const Home = () => {
 
 
 
-            <Link href={"/login"} style={{ marginTop: 20, borderBottomWidth: 1, marginVertical: 10 }}>
+            {/* <Link href={"/login"} style={{ marginTop: 20, borderBottomWidth: 1, marginVertical: 10 }}>
                 <ThemedText> Login page</ThemedText>
             </Link>
             <Link href={"/register"} style={{ marginTop: 20, borderBottomWidth: 1, marginVertical: 10 }}>
                 <ThemedText>Register page</ThemedText>
-            </Link>
+            </Link> */}
 
 
             <Link href={"/profile"} style={{ marginTop: 20, borderBottomWidth: 1, marginVertical: 10 }}>
